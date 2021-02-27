@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+}
+#boder{
+  
+  margin-right: 1rem;
+  
+}
+#button {
+  background-color: rgba(220,220,235,0.5);
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all ease-in-out 0.5s;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+#button:hover {
+  background-color: rgba(220,220,235,0.7);
+  transition: all ease 0.3s;
+}
+
+
+
+#output {
+  font-family: "Fira-Mono", monospace;
+  font-color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: 100;
+  position: fixed;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  bottom: 0;
+  left: 0;
+}
